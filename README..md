@@ -1,61 +1,46 @@
-Gestión de Datos de Países en Python
-Descripción
+# Gestión de Datos de Países en Python
 
-Este proyecto fue desarrollado para el Trabajo Práctico Integrador de Programación 1 de la Tecnicatura Universitaria en Programación.
+## 📝 Descripción
+Este proyecto fue desarrollado para el **Trabajo Práctico Integrador de Programación 1** de la *Tecnicatura Universitaria en Programación*.
 
 La aplicación permite gestionar información de países almacenada en un archivo CSV mediante operaciones de búsqueda, filtrado, ordenamiento y generación de estadísticas.
 
-Tecnologías utilizadas
-Python 3
-CSV
-Listas
-Diccionarios
-Funciones
-Funcionalidades
-Mostrar países
-Buscar país por nombre
-Agregar país
-Actualizar población y superficie
-Eliminar país
-Filtrar por continente
-Filtrar por rango de población
-Filtrar por rango de superficie
-Ordenar por nombre
-Ordenar por población
-Ordenar por superficie (ascendente o descendente)
-Mostrar estadísticas generales
-Estructura de datos
+---
 
-Cada país se almacena mediante un diccionario con los siguientes campos:
+## 🛠️ Tecnologías Utilizadas
+* **Lenguaje:** Python 3
+* **Persistencia:** Archivo CSV (`paises.csv`)
+* **Estructuras de Datos:** Listas y Diccionarios
+* **Paradigma:** Programación Estructurada y Modular (Funciones)
 
-nombre
-poblacion
-superficie
-continente
+---
 
-Los países son almacenados dentro de una lista.
+## 🚀 Funcionalidades
+El sistema cuenta con un menú interactivo que permite realizar las siguientes acciones:
+* 📊 **Mostrar países:** Listado completo de los registros.
+* 🔍 **Buscar país por nombre:** Localización exacta de un país.
+* ➕ **Agregar país:** Inserción de nuevos registros al sistema.
+* 🔄 **Actualizar población y superficie:** Modificación de datos existentes.
+* ❌ **Eliminar país:** Borrado de registros.
+* 🗺️ **Filtrar por continente:** Agrupación de países por su región.
+* 👥 **Filtrar por rango de población:** Búsqueda segmentada por cantidad de habitantes.
+* 📐 **Filtrar por rango de superficie:** Búsqueda segmentada por extensión territorial.
+* 🔤 **Ordenar por nombre:** Ordenamiento alfabético.
+* 📈 **Ordenar por población:** Ordenamiento numérico por habitantes.
+* 📉 **Ordenar por superficie:** Ordenamiento numérico (ascendente o descendente).
+* 📋 **Mostrar estadísticas generales:** Cálculos y métricas globales sobre los datos.
 
-Ejemplo de registro
+---
 
+## 📊 Estructura de Datos
+
+Los países son almacenados internamente dentro de una **lista de diccionarios**. Cada país se representa mediante un diccionario con los siguientes campos:
+
+* `nombre` (String)
+* `poblacion` (Integer)
+* `superficie` (Float/Integer)
+* `continente` (String)
+
+### Ejemplo de registro en el archivo CSV:
+```csv
 Argentina,45376763,2780400,América
-
-Ejecución
-Abrir una terminal.
-Ubicarse en la carpeta del proyecto.
-Ejecutar:
-
-python main.py
-
-Integrante
-Jonatan Farfán
-Video demostración
-
-[PEGAR LINK DEL VIDEO]
-
-Documentación PDF
-
-[PEGAR LINK DEL PDF]
-
-Repositorio
-
-[PEGAR LINK DEL REPOSITORIO]
