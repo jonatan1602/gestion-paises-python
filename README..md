@@ -44,12 +44,13 @@ Los países son almacenados internamente dentro de una **lista de diccionarios**
 ### Ejemplo de registro en el archivo CSV:
 ```csv
 Argentina,45376763,2780400,América
+```
 
 ## Ejecución
-* abrir un terminal
-* ubicarse en la carpeta del proyect0
-* ejecutar: main.py
+* Abrir una terminal
+* Ubicarse en la carpeta del proyecto
+* Ejecutar: main.py
 
-## Video
-https://drive.google.com/file/d/1WamgND2Q6ULbgz0XWC96Za-EfYezr--V/view?usp=sharing
+## Link video: https://drive.google.com/file/d/1WamgND2Q6ULbgz0XWC96Za-EfYezr--V/view?usp=sharing
 
+Jonata Farfán
